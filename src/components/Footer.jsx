@@ -133,12 +133,6 @@ const Footer = () => {
             className="flex flex-col md:flex-row justify-between items-center gap-4"
           >
             <motion.p
-              variants={fadeIn("right", 1.0)}
-              className="text-gray-600 text-sm"
-            >
-              Copyright © {new Date().getFullYear()} codetutorbd.com
-            </motion.p>
-            <motion.p
               variants={fadeIn("left", 1.0)}
               className="text-gray-600 text-sm"
             >
